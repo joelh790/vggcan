@@ -58,7 +58,7 @@ public class VggEvent implements Comparable {
 	}
 
 	public void setX(int x) {
-		if(x<=10||x>=-10)
+		if(x<=10||x>=-10) //Range can be increased for a larger world size
 		{
 			this.x = x;
 		}
